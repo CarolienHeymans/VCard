@@ -8,33 +8,33 @@ body {
     background-color:#010103;
 }
 
-main { background-color: }
+main { background-color:#08010b; }
     
     
 
 section {
-
+    
 }
 
 header {
+    background-color: #24293d  
   
   }
    
-}
 
 img {
     border-radius: 50%;
-    filter: grayscale(100%);
+   filter: grayscale(100%);
 }
 
 .personal {
-    color:whitesmoke;
+    color: #C5CAB3;
 }
 
-.adress {   color:whitesmoke;
+.adress {   color:#C5CAB3;
    }
 
 .contact {
-    color:whitesmoke;
+    color:#C5CAB3;
     
 }
