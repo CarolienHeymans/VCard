@@ -81,8 +81,9 @@ article {
 footer {
     color: #afa5a5;
     background-color: #010103;
-    width: auto;
+    width: 85%;
     margin-left: 5px;
+    
  }
  
 .column {
