@@ -1,40 +1,65 @@
 html {
     box-sizing: border-box;
     font-family: 'Dosis', sans-serif;
-
+    
 }
 
 body {
-    background-color:#010103;
+    background-color: #010103;
+    width: auto;
 }
 
-main { background-color:#08010b; }
+main {
+    display: flex;
+    flex-direction: row;
     
-    
-
+}
 section {
-    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
+
+
 
 header {
-    background-color: #24293d  
-  
-  }
-   
+    background-color: #24293d;
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height:700px ;
+    background-color: #08010b;
+}  
 
 img {
     border-radius: 50%;
-   filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .personal {
     color: #C5CAB3;
+ width: 33%;%;
+  
 }
 
-.adress {   color:#C5CAB3;
-   }
+.adress {
+    color: #C5CAB3;
+    width: 33%;
+}
 
 .contact {
-    color:#C5CAB3;
-    
+    color: #C5CAB3;
+    width: 33%;
 }
+article {
+   color: #C5CAB3;
+   width: 100%
+}
+footer {
+    color: #C5CAB3;
+ }
