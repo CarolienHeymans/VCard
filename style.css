@@ -1,6 +1,8 @@
 html {
     box-sizing: border-box;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    width: auto;
+    height: auto;
     
 }
 
@@ -17,25 +19,33 @@ main {
 section {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: auto;
+    height: auto;
+    
 }
 
 
 
 header {
     background-color:  #adaaaa;
-       display: flex;
+    display: flex;
     flex-direction: row;
     width: auto;
+    height: auto;
+    margin: 5px;
+    padding: 5px ;
 }
 nav {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height:700px ;
+    width: auto;
+    height: auto;
     background-color:#010103;
-   color:#afa5a5;
+    color:#afa5a5;
+    margin: 5px;
+    padding: 5px ; 
 }  
+ul { list-style-type: none; }
 
 img {
     border-radius: 50%;
@@ -48,7 +58,7 @@ img {
 
 .personal {
     color: #0b0a10;
- width: 33%;%;
+ width: 33%;
   
 }
 
@@ -63,10 +73,15 @@ img {
 }
 article {
     color: #0b0a10;
-   width: 100%;
    background-color: #adaaaa;
+   list-style-type: none; 
    width: auto;
+   margin: 5px;
+   padding: 5px ;
 }
 footer {
-    color: #0b0a10;
+    color: #afa5a5;
+    background-color: #010103;
+    width: auto;
+    margin: 5px;
  }
