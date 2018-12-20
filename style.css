@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+body {
+    background-color:#010103;
+}
+
+main { background-color: }
+    
+    
+
+section {
+
+}
+
+header {
+  
+  }
+   
+}
+
+img {
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+.personal {
+    color:whitesmoke;
+}
+
+.adress {   color:whitesmoke;
+   }
+
+.contact {
+    color:whitesmoke;
+    
+}
