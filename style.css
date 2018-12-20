@@ -27,7 +27,7 @@ section {
 
 
 header {
-    background-color:  #adaaaa;
+   background-color:#e1d7d7;;
     display: flex;
     flex-direction: row;
     width: auto;
@@ -49,7 +49,6 @@ ul { list-style-type: none; }
 
 img {
     border-radius: 50%;
-    filter: grayscale(100%);
     height: 200px ;
     width: 200px;
     align-self: center;
@@ -73,7 +72,7 @@ img {
 }
 article {
     color: #0b0a10;
-   background-color: #adaaaa;
+   background-color:#e1d7d7;
    list-style-type: none; 
    width: auto;
    margin: 5px;
@@ -83,5 +82,16 @@ footer {
     color: #afa5a5;
     background-color: #010103;
     width: auto;
-    margin: 5px;
+    margin-left: 5px;
  }
+ 
+.column {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    padding: 10px;
+  }
+  
+ 
+  
+  
