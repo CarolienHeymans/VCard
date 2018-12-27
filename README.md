@@ -5,3 +5,5 @@ Attempt at making a VCard
   CSS (Flexbox)
   
   HTML
+
+  CSS Media Queries
