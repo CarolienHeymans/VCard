@@ -46,7 +46,7 @@ nav ul a {
     text-align: center;
 }
 
-header img #photo {
+ #photo {
     display: block;
     height: 200px;
     width: 200px;
