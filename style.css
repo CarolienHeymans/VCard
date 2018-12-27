@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    background-image: url(images/marina.png);
+    background: url(images/marina.png);
+    background-size: cover;
     width: auto;
     height: auto;
     display: flex;
@@ -36,6 +37,7 @@ nav ul li {
     margin: 20px;
     height: 30px;
     display: block;
+    text-align: center;
 
 }
 
@@ -43,7 +45,8 @@ nav ul a {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    text-align: center;
+    text-align: right;
+   
 }
 
  #photo {
@@ -78,8 +81,35 @@ footer {
     html {
         width: auto;
         height: auto;
+        background-image: url(images/marina.png) fixed 100% no-repeat;
     }
     main {
+        flex-direction: column;
         margin:0;
+        background-image: url(images/marina.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-items: flex-start;
+    justify-content: center;
     }
+    body{
+        margin: 0;
     }
+
+nav ul li {
+    list-style-type: none;
+    background-color: rgb(202, 224, 219);
+    height: 30px;
+    display: block;}
+
+    nav ul  {
+        padding: 0%;
+      
+    }
+    nav{
+        order: 2; 
+    }
+    section{
+        order: 1; 
+    }
+}
