@@ -3,96 +3,83 @@ html {
     font-family: 'PT Sans Caption', sans-serif;
     width: auto;
     height: auto;
-    
+
 }
 
 body {
-    background-color:  #47383b;
+    background-image: url(images/marina.png);
     width: auto;
+    height: auto;
+    display: flex;
 }
 
 main {
+
     display: flex;
     flex-direction: row;
-    
+    align-items: center;
+    justify-content: center;
+    margin: 100px 100px 100px 250px;
 }
-section {
-    display: flex;
+
+nav {
     flex-direction: column;
-    width: auto;
+
     height: auto;
-    
+    width: 250px;
+    display: block;
 }
 
+nav ul li {
+    list-style-type: none;
+    background-color: rgb(202, 224, 219);
+    margin: 20px;
+    height: 30px;
+    display: block;
 
+}
+
+nav ul a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+header img #photo {
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+
+}
+
+section {
+    flex-direction: column;
+    background-color: rgb(202, 224, 219);
+    text-align: center;
+}
 
 header {
-   background-color:#e1d7d7;;
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    height: auto;
-    margin: 5px;
-    padding: 5px ;
-}
-nav {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    background-color:#010103;
-    color:#afa5a5;
-    margin: 5px;
-    padding: 5px ; 
-}  
-ul { list-style-type: none; }
 
-img {
-    border-radius: 50%;
-    height: 200px ;
-    width: 200px;
-    align-self: center;
-    
+    margin: 20px;
 }
-
-.personal {
-    color: #0b0a10;
- width: 33%;
-  
-}
-
-.adress {
-    color: #0b0a10;
-    width: 33%;
-}
-
 .contact {
-    color: #0b0a10;
-    width: 33%;
+    text-align: center;
 }
-article {
-    color: #0b0a10;
-   background-color:#e1d7d7;
-   list-style-type: none; 
-   width: auto;
-   margin: 5px;
-   padding: 5px ;
-}
+
 footer {
-    color: #afa5a5;
-    background-color: #010103;
-    width: 85%;
-    margin-left: 5px;
-    
- }
- 
-.column {
-    display: flex;
-    flex-direction: row;
-    width: 25%;
-    padding: 10px;
-  }
-  
- 
-  
-  
+    margin: 20px;
+}
+
+@media only screen and (max-width:600px) {
+    html {
+        width: auto;
+        height: auto;
+    }
+    main {
+        margin:0;
+    }
+    }
