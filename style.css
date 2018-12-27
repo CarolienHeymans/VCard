@@ -12,20 +12,21 @@ body {
     width: auto;
     height: auto;
     display: flex;
+    flex-direction: column;
+  
 }
 
 main {
 
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    margin: 100px 100px 100px 250px;
+    
 }
 
 nav {
     flex-direction: column;
-
+    justify-content: center;
     height: auto;
     width: 250px;
     display: block;
@@ -86,14 +87,14 @@ footer {
     main {
         flex-direction: column;
         margin:0;
-        background-image: url(images/marina.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        align-items: flex-start;
+        align-items: center;
     justify-content: center;
     }
     body{
         margin: 0;
+        background-image: url(images/marina.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
 nav ul li {
